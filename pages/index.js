@@ -7,6 +7,7 @@ import LargeCard from '../components/LargeCard'
 import Footer from '../components/Footer'
 
 export default function Home(props) {
+  
   return (
     <div className="">
       <Head>
