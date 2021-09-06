@@ -8,11 +8,11 @@ function InfoCard(props) {
     const {img, description,lat,location,long,price,star,title,total } = props;
 
     return (
-        <div className="flex px-2 py-7 pr-4 cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t">
-            <div className="relative h-24 w-40 md:w-80 md:h-52 flex-shrink-0">
+        <div className="flex flex-col px-2 py-7 pr-4 cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t sm:flex-row">
+            <div className="relative h-36 sm:h-36 md:w-80 md:h-52 flex-shrink-0">
                 <Image src={img} layout="fill" objectFit="cover" className="rounded-2xl" />
             </div>
-            <div className="flex flex-col flex-grow pl-5">
+            <div className="flex flex-col flex-grow pl-0 sm:pl-5">
                 <div className="flex justify-between">
                     <p>{location}</p>
                     <HeartIcon className="h-7 cursor-pointer" />

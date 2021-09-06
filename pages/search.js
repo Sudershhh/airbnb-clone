@@ -21,7 +21,7 @@ function Search({searchResults}) {
 
             <Head>
                 <title>Airbnb Results - Stays in {location}</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.png" />
             </Head>
 
             <Header placeholder={`${location} | ${formattedStartDate} - ${formattedEndDate} | ${noOfGuests} guests `} />

@@ -12,13 +12,13 @@ export default function Home(props) {
     <div className="">
       <Head>
         <title>Airbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <Header />
       <Banner />
 
-      <main className="max-w-7xl mx-auto sm:px-6">
+      <main className="max-w-7xl mx-auto sm:px-6 px-2">
         <section className="pt-6">
             <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
         
